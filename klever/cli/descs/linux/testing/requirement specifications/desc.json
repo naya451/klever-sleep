@@ -4,6 +4,8 @@
         "name": "Linux",
         "external modules": "tests",
         "loadable kernel modules": [
+            "ext-modules/linux/sleep/irq",
+            "ext-modules/linux/sleep/spinlock",
             "ext-modules/linux/alloc/irq",
             "ext-modules/linux/alloc/spinlock",
             "ext-modules/linux/alloc/usb-lock",
